@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="linear_padding">10dp</dimen>
+    <dimen name="skill_size">18sp</dimen>
+    <dimen name="pengalaman_size">16sp</dimen>
+
+    <dimen name="searchview_margin">10dp</dimen>
+    <dimen name="searchview_padding">5dp</dimen>
+
+    <dimen name="recyclerview_height">598dp</dimen>
+    <dimen name="recycler_marginstart">24dp</dimen>
+    <dimen name="recycler_margintop">229dp</dimen>
+    <dimen name="recycler_marginend">16dp</dimen>
+</resources>

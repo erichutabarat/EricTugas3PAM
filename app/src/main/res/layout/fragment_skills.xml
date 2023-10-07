@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textforskills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints" />
+
+    <SearchView
+        android:id="@+id/searchViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/searchview_margin"
+        android:iconifiedByDefault="false"
+        android:padding="@dimen/searchview_padding"
+        android:queryHint="Search Programming language"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/recyclerview_height"
+        android:layout_marginStart="@dimen/recycler_marginstart"
+        android:layout_marginTop="@dimen/recycler_margintop"
+        android:layout_marginEnd="@dimen/recycler_marginend"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:listitem="@layout/fragment_skill_box" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
