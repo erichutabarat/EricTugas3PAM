@@ -72,7 +72,7 @@ class SkillsFragment : Fragment() {
     private fun filter(text: String){
         val filteredlist : ArrayList<itemsViewModel> = ArrayList()
         for(item in data){
-            if(item.skillnama.contains(text)){
+            if(item.skillnama.lowercase(Locale.getDefault()).contains(text.lowercase(Locale.getDefault()))){
                 filteredlist.add(item)
             }
         }
