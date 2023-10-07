@@ -33,8 +33,8 @@ class SkillsFragment : Fragment() {
         val textView = binding.textforskills
 
 
-        val dataSkill = resources.getStringArray(R.array.daftar_skill)
-        val dataPengalaman = resources.getIntArray(R.array.pengalaman_skill)
+        val dataSkill = resources.getStringArray(R.array.daftarSkill)
+        val dataPengalaman = resources.getIntArray(R.array.pengalamanSkill)
 
         val recyclerview : RecyclerView = root.findViewById(R.id.recyclerview)
         recyclerview.layoutManager = LinearLayoutManager(requireContext())
